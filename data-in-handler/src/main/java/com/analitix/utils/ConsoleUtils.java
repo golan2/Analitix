@@ -1,4 +1,4 @@
-package com.hp.analitix.utils;
+package com.analitix.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;

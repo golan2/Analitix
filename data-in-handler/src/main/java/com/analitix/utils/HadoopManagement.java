@@ -1,4 +1,4 @@
-package com.hp.analitix.utils;
+package com.analitix.utils;
 
 import com.jcraft.jsch.Session;
 import org.apache.hadoop.conf.Configuration;
@@ -10,9 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class ReadFromHdfs {
-
-
+public class HadoopManagement {
     private static final boolean useSSH = true;
 
     public static void main(String[] args) throws Exception {

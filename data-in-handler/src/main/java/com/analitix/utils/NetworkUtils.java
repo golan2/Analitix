@@ -1,4 +1,4 @@
-package com.hp.analitix.utils;
+package com.analitix.utils;
 
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
@@ -8,8 +8,6 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.net.ServerSocket;
 import java.net.URL;
 
 
@@ -21,7 +19,7 @@ public class NetworkUtils {
     public static final String SSH_CONNECTION_XML = "ssh-connection.xml";
 
     public static Session openSshSession() throws JSchException, FileNotFoundException {
-        URL resource = ReadFromHdfs.class.getClassLoader().getResource(SSH_CONNECTION_XML);
+        URL resource = HadoopManagement.class.getClassLoader().getResource(SSH_CONNECTION_XML);
         if (resource==null) throw new FileNotFoundException("Can't fine ["+SSH_CONNECTION_XML+"] in classpath");
         String sshConnectionFilePath = resource.getPath().substring(1);
         SSHConnectionProperties sshProperties = loadSshConfig(sshConnectionFilePath);

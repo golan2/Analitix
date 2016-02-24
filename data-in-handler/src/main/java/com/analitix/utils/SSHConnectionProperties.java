@@ -1,4 +1,4 @@
-package com.hp.analitix.utils;
+package com.analitix.utils;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

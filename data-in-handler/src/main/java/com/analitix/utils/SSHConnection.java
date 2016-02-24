@@ -1,4 +1,4 @@
-package com.hp.analitix.utils;
+package com.analitix.utils;
 
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;
