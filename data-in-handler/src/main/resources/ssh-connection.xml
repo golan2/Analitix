@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ssh-connection>
+    <host>myd-vm22661.hpswlabs.adapps.hp.com</host>
+    <port>22</port>
+    <user>hadoop</user>
+    <password>hadoop</password>
+    <!--<user>root</user>-->
+    <!--<password>Xy6stqZ</password>-->
+</ssh-connection>
